@@ -1,0 +1,104 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: content-box;
+}
+body{
+   /*  background-color: #9266ff; */
+    /* background-color: #6082B6 */
+    background-color: #c8aca9;
+  }
+  .todo{
+    /* background-color:#a9a9a9; */
+    background-image: url('./assets/pic.jpg'); /* Set the background image to pic.jpg in the assets folder */
+    background-repeat: no-repeat; /* Don't repeat the image */
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-position: center;
+    
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    min-height: 90vh;
+    display :flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .wrapper{
+    padding: 10px;
+    border-radius: 10%;
+  }
+  .Input-wrapper{
+       display: flex;
+       justify-content: space-between;
+       width: 300px;
+       align-items: center;
+      
+  }
+  .Input-wrapper input{
+    border-radius: 4%;
+    border:0 ;
+    width:300px;
+    padding:6px;
+    height: 20px;
+    margin:10px;
+}
+.Button-wrapper{
+    position: relative;
+    height: 22px;
+    width: 22px;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    background-color: white;
+
+}
+.todo-button{
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    font-size:15px;
+    background: transparent;
+    border:0
+
+}
+.item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    align-items:center;
+    width:250px;
+    /* height:30px; */
+    border:1 px solid white;
+    border-radius :2px;
+    padding:10 px;
+    background-color:white;
+
+}
+.item p{
+margin:0;
+padding:10px;
+font-family:"fantasy";
+font-size:16px;
+word-break: break-all;
+
+
+}
+.item button{
+    display :flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 5px;
+    height:5px;
+    border-radius :50%;
+    padding:4px;
+    margin:4px;
+    outline:none;
+    background-color: black;
+    color:white
+}
